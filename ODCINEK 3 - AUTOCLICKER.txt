@@ -1,0 +1,9 @@
+toggle = 0
+#MaxThreadsPerHotkey 2
+
+M::
+Toggle := !Toggle
+While Toggle{
+Click
+sleep 30
+}
